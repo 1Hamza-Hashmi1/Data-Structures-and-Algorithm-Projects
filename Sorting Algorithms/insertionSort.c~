@@ -1,0 +1,16 @@
+#include "mySort.h"
+
+void mySort(int array[], int first, int last) {
+	int key;
+	for (int i = first + 1; i <= last; i++) {
+		myCopy(&array[i], &key);
+		int j = i - 1;
+
+		while (myCompare(key, array[j]) < 0 && myCompare(-1, j) < 0) {
+			mySwap(&array[j], &array[j+1]);
+			--j;
+		}
+	}
+}
+
+
