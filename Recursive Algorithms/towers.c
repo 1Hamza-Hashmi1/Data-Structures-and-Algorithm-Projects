@@ -1,4 +1,4 @@
-/* Author: kclowes */
+/* Author: hzhashmi */
 /* Description: Solves "Towers of Hanoi" problem.
  *              Prints sequence of moves to stdout.
  *              Prints other information tracing the
